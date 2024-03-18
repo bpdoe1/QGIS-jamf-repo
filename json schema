@@ -3,20 +3,20 @@
   "title": "QGIS Configuration",
   "type": "object",
   "properties": {
-    "appName": {QGIS}
+    "appName": {
       "type": "string",
-      "description": "Name of the application"
+      "description": "QGIS"
     },
-    "appVersion": {3.36 Maidenhead}
+    "appVersion": {
       "type": "string",
-      "description": "Version of the application"
+      "description": "3.36 Maidenhead"
     },
     "installPath": {
       "type": "string",
       "description": "Installation path on the device"
     },
     "autoUpdate": {
-      "type": "boolean",
+      "type": false,
       "description": "Enable automatic updates"
     },
     "customSettings": {
