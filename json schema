@@ -3,11 +3,11 @@
   "title": "QGIS Configuration",
   "type": "object",
   "properties": {
-    "appName": {
+    "appName": {QGIS}
       "type": "string",
       "description": "Name of the application"
     },
-    "appVersion": {
+    "appVersion": {3.36 Maidenhead}
       "type": "string",
       "description": "Version of the application"
     },
