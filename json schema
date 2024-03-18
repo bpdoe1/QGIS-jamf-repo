@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QGIS Configuration",
+  "type": "object",
+  "properties": {
+    "appName": {
+      "type": "string",
+      "description": "Name of the application"
+    },
+    "appVersion": {
+      "type": "string",
+      "description": "Version of the application"
+    },
+    "installPath": {
+      "type": "string",
+      "description": "Installation path on the device"
+    },
+    "autoUpdate": {
+      "type": "boolean",
+      "description": "Enable automatic updates"
+    },
+    "customSettings": {
+      "type": "object",
+      "description": "Additional custom settings specific to MyApp"
+      // Add more properties here as needed
+    }
+  },
+  "required": ["appName", "appVersion", "installPath"],
+  "additionalProperties": false
+}
